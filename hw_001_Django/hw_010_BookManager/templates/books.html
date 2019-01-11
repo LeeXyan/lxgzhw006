@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block show_content %}
+    <div class="col-md-12 fallowers_agile agile_info_shadow">
+        <h3 class="w3_inner_tittle two">图书管理</h3>
+        <div class="work-progres">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>书名</th>
+                        <th>作者</th>
+                        <th>价格</th>
+                        <th>出版社</th>
+                        <th>作者年龄</th>
+                        <th>作者所在城市</th>
+                        <th>作者邮箱</th>
+                        <th>作者电话</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {# id 书名 价格 作者 出版社  #}
+                    {% for book in book_list %}
+                        <tr>
+                            <td>{{ book.id }}</td>
+                            <td>{{ book.name }}</td>
+                            <td>{{ book.author.name }}</td>
+                            <td>{{ book.price }}</td>
+                            <td>{{ book.publisher.name }}</td>
+                            <td>{{ book.author.age }}</td>
+                            <td>{{ book.author.city }}</td>
+                            <td>{{ book.author.email }}</td>
+                            <td>{{ book.author.phone }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 fallowers_agile agile_info_shadow">
+        <h3 class="w3_inner_tittle two">出版社管理</h3>
+        <div class="work-progres">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>出版社名字</th>
+                        <th>出版社所在城市</th>
+                        <th>出版社邮箱</th>
+                        <th>出版社联系电话</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {#模板渲染所有的出版社信息#}
+                    {% for publisher in posts.object_list %}
+                        <tr>
+                            <td class="danger">{{ publisher.id }}</td>
+                            <td class="info">{{ publisher.name }}</td>
+                            <td class="warning">{{ publisher.city }}</td>
+                            <td class="success">{{ publisher.email }}</td>
+                            <td class="danger">{{ publisher.phone }}</td>
+                            <td>
+                                {# 思路:点击增加的时候,让输入框可编辑 #}
+                                <a href="/add_publisher.html/" class="btn btn-success">增加</a>
+                                <a href="/delete_publisher.html?nid={{ publisher.id }}" class="btn btn-danger">删除</a>
+                                <a href="/update_publisher.html?nid={{ publisher.id }}" class="btn btn-warning">修改</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    {% include 'paginator.html' %}
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+{% endblock %}

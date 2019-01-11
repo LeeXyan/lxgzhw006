@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+register
+
+<form action="/register/" method="post">
+    {% csrf_token %}
+    <p>
+        {{ register_forms.name.label }}
+        {{ register_forms.name }}
+    </p>
+    <p>
+        {{ register_forms.password.label }}
+        {{ register_forms.password }}
+    </p>
+    <p>
+        {{ register_forms.captcha.label }}
+        {{ register_forms.captcha }}
+    </p>
+    <p>
+        <input type="submit" value="submit">
+    </p>
+</form>
+</body>
+</html>

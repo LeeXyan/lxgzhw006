@@ -1,0 +1,25 @@
+
+hw_002_浏览器内核
+
+认识网页
+	图片
+	音乐
+
+	用户看到页面,前端写代码
+
+浏览器的常见内核介绍
+	IE浏览器
+		渲染引擎
+		JavaScript引擎
+		IE内核:
+			Trident
+			EdgeHTML
+	火狐浏览器
+		Gecko内核
+
+	谷歌浏览器
+		Chromium/Blink内核
+	Opera浏览器
+		Presto内核
+	Safar浏览器
+		webkit内核

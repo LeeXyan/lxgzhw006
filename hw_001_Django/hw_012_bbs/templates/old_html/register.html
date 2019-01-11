@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/base.css">
+    <title>理想国真惠玩-注册</title>
+</head>
+<body>
+<h1>理想国真惠玩-注册</h1>
+<div class="container">
+    <div class="row">
+        <div class="container row">
+            <form action="/register.html" method="post">
+                {% csrf_token %}
+                {# 每个字段开始 #}
+                <div class="form-group">
+                    {# form_obj.username.id_for_label 指向的是一个id #}
+                    <label for="{{ form_obj.username.id_for_label }}"
+                    >{{ form_obj.username.label }}</label>
+                    <div class="col-sm-10">
+                        {{ form_obj.username }}
+                    </div>
+
+                </div>
+                {# 每个字段结束 #}
+                {# 密码字段开始 #}
+                <div class="form-group">
+                    {# form_obj.username.id_for_label 指向的是一个id #}
+                    <label for="{{ form_obj.password.id_for_label }}"
+                    >{{ form_obj.password.label }}</label>
+                    <div class="col-sm-10">
+                        {{ form_obj.password }}
+                    </div>
+                </div>
+                {# 密码字段结束 #}
+                {# 重复密码字段开始 #}
+                <div class="form-group">
+                    {# form_obj.username.id_for_label 指向的是一个id #}
+                    <label for="{{ form_obj.re_password.id_for_label }}"
+                    >{{ form_obj.re_password.label }}</label>
+                    <div class="col-sm-10">
+                        {{ form_obj.re_password }}
+                    </div>
+                </div>
+                {# 重复密码字段结束 #}
+                {# 邮箱字段开始 #}
+                <div class="form-group">
+                    {# form_obj.username.id_for_label 指向的是一个id #}
+                    <label for="{{ form_obj.email.id_for_label }}"
+                    >{{ form_obj.email.label }}</label>
+                    <div class="col-sm-10">
+                        {{ form_obj.email }}
+                    </div>
+                </div>
+                {# 邮箱字段结束 #}
+
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

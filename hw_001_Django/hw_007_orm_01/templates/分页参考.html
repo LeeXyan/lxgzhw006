@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分页demo</title>
+</head>
+<body>
+<ul>
+    {% for item in posts.object_list %}
+        {#遍历每一条数据#}
+        <li>{{ item.name }}-{{ item.age }}</li>
+    {% endfor %}
+</ul>
+<a href="/fenye?p=1">第一页</a>
+{% if posts.has_previous %}
+    {#以get的方式将页码数传递给视图#}
+    <a href="/fenye?p={{ posts.previous_page_number }}">上一页</a>
+{% else %}
+    <a href="#">上一页</a>
+{% endif %}
+{#中间页#}
+{% for mid in mid_list %}
+    <a href="/fenye?p={{ mid }}">{{ mid }}</a>
+{% endfor %}
+
+{% if posts.has_next %}
+    <a href="/fenye?p={{ posts.next_page_number }}">下一页</a>
+{% else %}
+    <a href="#">下一页</a>
+{% endif %}
+<a href="/fenye?p={{ posts.paginator.num_pages }}">最后一页</a>
+<span>
+    {{ posts.number }}|{{ posts.paginator.num_pages }}
+</span>
+</body>
+</html>

@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+{% block main %}
+
+    <main role="main" class="probootstrap-main js-probootstrap-main">
+        <div class="probootstrap-bar">
+            <a href="#" class="probootstrap-toggle js-probootstrap-toggle"><span class="oi oi-menu"></span></a>
+            <div class="probootstrap-main-site-logo"><a href="index.html">相册网站</a></div>
+        </div>
+        <div class="card-columns">
+
+            {#所有的数据库图片#}
+
+
+            {% if images %}
+                {% for image in images %}
+                    <div class="card">
+                        <a href="#">
+                            <img class="card-img-top probootstrap-animate" src="/media/{{ image.img }}"
+                                 alt="Card image cap"
+                                 data-animate-effect="fadeIn">
+                        </a>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate"
+                             src="http://pic.zsucai.com/files/2013/0709/hcmnv2.jpg" alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate"
+                             src="http://pic1.win4000.com/wallpaper/1/537c22366ca49.jpg" alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate"
+                             src="http://pic4.bbzhi.com/mingxingbizhi/gaoqingtaiwankuanpingmeinvbizhi/gaoqingtaiwankuanpingmeinvbizhi_357417_12.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_4.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_5.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_6.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_7.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_8.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_9.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_10.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_11.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_12.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_13.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_14.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_15.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_16.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_17.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_18.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_19.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_20.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top probootstrap-animate" src="/static/images/img_21.jpg"
+                             alt="Card image cap"
+                             data-animate-effect="fadeIn">
+                    </a>
+                </div>
+                </div>
+                <div class="tlinks">Collect from <a href="http://www.cssmoban.com/">网页模板</a></div>
+
+                <div class="container-fluid d-md-none">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-unstyled d-flex probootstrap-aside-social">
+                                <li><a href="#" class="p-2"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#" class="p-2"><span class="icon-instagram"></span></a></li>
+                                <li><a href="#" class="p-2"><span class="icon-dribbble"></span></a></li>
+                            </ul>
+                            <p>&copy; 2017 ProBootstrap:Aside <br> All Rights Reserved. Designed by ProBootstrap</p>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+
+
+    </main>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?f595397205ec2efc3423e03ba0fbc887";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+{% endblock %}

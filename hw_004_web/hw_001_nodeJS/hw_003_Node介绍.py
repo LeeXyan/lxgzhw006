@@ -1,0 +1,61 @@
+"""
+Node.js能做什么
+    Web 服务器后台
+    命令行工具:
+        其他的命令行工具有:
+            git
+            pip
+            conda
+        对于前端开发工程师来讲,接触node最多的是它的命令行工具
+            自己写的很少,主要是使用别人第三方开发的:
+                webpack
+                gulp
+                npm
+预备知识:
+    HTML
+    CSS
+    JavaScript
+    简单的命令行操作:
+        cd
+        dir
+        ls
+        mkdir
+        rm
+    具有服务端开发经验更佳
+
+一些资源
+    深入浅出Nod.js
+        朴灵
+        偏理论,几乎没有任何实战内容
+        理解原理底层有帮助
+
+能学到什么
+    B/S 编程模型
+        Browser-Server
+        bak-end
+        任何服务端技术,这种BS编程模型都是一样的,和语言无关
+        Node只是作为我们学习BS编程模型的一个工具而已:
+            工具是用来解决问题的
+            只要能够解决问题的都是好东西
+    模块化编程
+        RequireJS
+        SeaJS
+        @import('文件路径')
+        以前认知的JavaScript只能通过script标签来加载
+        在Node中,可以像#import()一样来引用加载脚本文件
+    Node常用API
+    异步编程
+        回调函数
+            传一个函数进去
+        Promise
+        async
+        generator
+    Express开发框架
+    EcmaScript6
+        在课程中穿插讲解
+        它只是一个新的语法而已
+    学习Node,不仅会帮助大家打开服务端黑盒子,同时会帮助你学习以后的前端高级内容
+        Vue.js
+        React
+        angular
+"""

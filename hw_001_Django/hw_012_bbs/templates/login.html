@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>系统登录</title>
+    <link href="/static/css/login.css" rel="stylesheet" rev="stylesheet" type="text/css" media="all"/>
+    <link href="/static/css/demo.css" rel="stylesheet" rev="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="/static/js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.SuperSlide.js"></script>
+    <script type="text/javascript" src="/static/js/Validform_v5.3.2_min.js"></script>
+
+    {#    <script>#}
+    {#        $(function () {#}
+    {##}
+    {#            $(".i-text").focus(function () {#}
+    {#                $(this).addClass('h-light');#}
+    {#            });#}
+    {##}
+    {#            $(".i-text").focusout(function () {#}
+    {#                $(this).removeClass('h-light');#}
+    {#            });#}
+    {##}
+    {#            $("#username").focus(function () {#}
+    {#                var username = $(this).val();#}
+    {#                if (username == '输入账号') {#}
+    {#                    $(this).val('');#}
+    {#                }#}
+    {#            });#}
+    {##}
+    {#            $("#username").focusout(function () {#}
+    {#                var username = $(this).val();#}
+    {#                if (username == '') {#}
+    {#                    $(this).val('输入账号');#}
+    {#                }#}
+    {#            });#}
+    {##}
+    {##}
+    {#            $("#password").focus(function () {#}
+    {#                var username = $(this).val();#}
+    {#                if (username == '输入密码') {#}
+    {#                    $(this).val('');#}
+    {#                }#}
+    {#            });#}
+    {##}
+    {##}
+    {#            $("#yzm").focus(function () {#}
+    {#                var username = $(this).val();#}
+    {#                if (username == '输入验证码') {#}
+    {#                    $(this).val('');#}
+    {#                }#}
+    {#            });#}
+    {##}
+    {#            $("#yzm").focusout(function () {#}
+    {#                var username = $(this).val();#}
+    {#                if (username == '') {#}
+    {#                    $(this).val('输入验证码');#}
+    {#                }#}
+    {#            });#}
+    {##}
+    {##}
+    {#            $(".registerform").Validform({#}
+    {#                tiptype: function (msg, o, cssctl) {#}
+    {#                    var objtip = $(".error-box");#}
+    {#                    cssctl(objtip, o.type);#}
+    {#                    objtip.text(msg);#}
+    {#                },#}
+    {#                ajaxPost: true#}
+    {#            });#}
+    {##}
+    {#        });#}
+    {##}
+    {##}
+    {#    </script>#}
+    <style>
+        .i-text {
+            width: 294px;
+        }
+
+        #o-box-up {
+            width: 366px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+<div class="header">
+    <h1 class="headerLogo"><a title="理想国真惠玩-Django博客" target="_blank" href="#"><img alt="logo"
+                                                                                    src="/static/images/logo1.jpg"></a>
+    </h1>
+    <div class="headerNav">
+        <a target="_blank" href="#">理想国</a>
+        <a target="_blank" href="#">理想国</a>
+        <a target="_blank" href="#">理想国</a>
+        <a target="_blank" href="#">理想国</a>
+        <a target="_blank" href="#">帮助</a>
+    </div>
+</div>
+
+<div class="banner">
+
+    <div class="login-aside">
+        <div id="o-box-up"></div>
+        <div id="o-box-down" style="table-layout:fixed;">
+            <div class="error-box"></div>
+
+            <form class="registerform">
+                {% csrf_token %}
+                <div class="fm-item">
+                    <label for="logonId" class="form-label">理想国真惠玩-博客登录：</label>
+                    <input type="text" value="输入账号" maxlength="100" id="username" class="i-text">
+                    <div class="ui-form-explain"></div>
+                </div>
+
+                <div class="fm-item">
+                    <label for="logonId" class="form-label">登陆密码：</label>
+                    <input type="password" maxlength="100" id="password" class="i-text">
+                    <div class="ui-form-explain"></div>
+                </div>
+
+                <div class="fm-item pos-r">
+                    <label for="logonId" class="form-label">验证码</label>
+                    <!-- 放置极验的滑动验证码 id必须一致 -->
+                    <div id="popup-captcha"></div>
+                </div>
+
+                <div class="fm-item">
+                    <label for="logonId" class="form-label"></label>
+                    <button type="submit" value="" tabindex="4" id="login-button" class="btn-login"></button>
+                    <div class="ui-form-explain"></div>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="bd">
+        <ul>
+            <li style="background:url(/static/themes/theme-pic1.jpg) #CCE1F3 center 0 no-repeat;"><a target="_blank"
+                                                                                                     href="#"></a></li>
+            <li style="background:url(/static/themes/theme-pic2.jpg) #BCE0FF center 0 no-repeat;"><a target="_blank"
+                                                                                                     href="#"></a></li>
+        </ul>
+    </div>
+
+    <div class="hd">
+        <ul></ul>
+    </div>
+</div>
+<script type="text/javascript">jQuery(".banner").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "click"
+});</script>
+
+
+<div class="banner-shadow"></div>
+
+<div class="footer">
+    <p>版权 &copy; 2019.理想国真惠玩-张大鹏 <a href="http://lxgzhw520.com"
+                                    target="_blank" title="理想国真惠玩">理想国真惠玩</a> -
+        作者 <a href="http://lxgzhw520.com" title="张大鹏" target="_blank">张大鹏</a></p>
+</div>
+
+<script src="/static/jquery-3.3.1.js"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<!-- 引入封装了failback的接口--initGeetest -->
+<script src="http://static.geetest.com/static/tools/gt.js"></script>
+<script>
+    // 极验 发送登录数据的
+    var handlerPopup = function (captchaObj) {
+        // 成功的回调
+        captchaObj.onSuccess(function () {
+            var validate = captchaObj.getValidate();
+            // 1. 取到用户填写的用户名和密码 -> 取input框的值
+            var username = $("#username").val();
+            var password = $("#password").val();
+            $.ajax({
+                url: "/login.html", // 进行二次验证
+                type: "post",
+                dataType: "json",
+                data: {
+                    username: username,
+                    password: password,
+                    {# csrf_token #}
+                    csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val(),
+                    geetest_challenge: validate.geetest_challenge,
+                    geetest_validate: validate.geetest_validate,
+                    geetest_seccode: validate.geetest_seccode
+                },
+                success: function (data) {
+                    console.log(data);
+                    if (data.status) {
+                        // 有错误，在页面上提示
+                        $(".login-error").text(data.msg);
+                    } else {
+                        // 登陆成功
+                        location.href = data.msg;
+                    }
+                }
+            });
+        });
+
+        $("#login-button").click(function () {
+            captchaObj.show();
+        });
+        // 将验证码加到id为captcha的元素里
+        captchaObj.appendTo("#popup-captcha");
+        // 更多接口参考：http://www.geetest.com/install/sections/idx-client-sdk.html
+    };
+    // 当input框获取焦点时将之前的错误清空
+    $("#username,#password").focus(function () {
+        // 将之前的错误清空
+        $(".login-error").text("");
+    });
+
+    // 验证开始需要向网站主后台获取id，challenge，success（是否启用failback）
+    $.ajax({
+        url: "/pc-geetest/register?t=" + (new Date()).getTime(), // 加随机数防止缓存
+        type: "get",
+        dataType: "json",
+        success: function (data) {
+            // 使用initGeetest接口
+            // 参数1：配置参数
+            // 参数2：回调，回调的第一个参数验证码对象，之后可以使用它做appendTo之类的事件
+            initGeetest({
+                gt: data.gt,
+                challenge: data.challenge,
+                product: "popup", // 产品形式，包括：float，embed，popup。注意只对PC版验证码有效
+                offline: !data.success // 表示用户后台检测极验服务器是否宕机，一般不需要关注
+                // 更多配置参数请参见：http://www.geetest.com/install/sections/idx-client-sdk.html#config
+            }, handlerPopup);
+        }
+    })
+
+
+</script>
+</body>
+</html>

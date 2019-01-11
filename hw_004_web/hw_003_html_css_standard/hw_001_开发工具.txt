@@ -1,0 +1,24 @@
+hw_001_开发工具
+
+浏览器:
+	显示网页
+	常用浏览器:
+		IE浏览器
+		火狐浏览器
+		谷歌浏览器
+			现在安装谷歌浏览器就行了
+			谷歌占用份额最多,而且趋势是越来越多
+			其次是IE浏览器
+		Edge浏览器
+		Safari浏览器
+		Opera浏览器
+代码工具
+	Dw
+	Sublime
+	WebStorm
+	HBuilder
+	Visual Studio Code
+
+辅助工具
+	Photoshop
+		切图
