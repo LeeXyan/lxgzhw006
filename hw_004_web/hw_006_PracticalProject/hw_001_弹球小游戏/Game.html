@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹球小游戏</title>
+    <style>
+        #main{
+            width: 400px;
+            height: 400px;
+            background: #2a5177;
+            margin: 0 auto;
+            position: relative;
+
+
+        }
+        #ball{
+            width: 30px;
+            height: 30px;
+            background: yellow;
+            border-radius: 100%;
+            position: absolute;
+
+            /*把球看成一个对象 speedX speedy*/
+
+        }
+        #bard{
+            width: 60px;
+            height: 20px;
+            background-color: red;
+            position: absolute;
+            /*让木板底部居中*/
+            bottom: 0;
+            left: 170px;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <!--用来放置小球-->
+    <div id="ball" style="left: 0;top: 0;"></div>
+    <!--木板-->
+    <div id="bard"></div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    // let $main=$('#main')
+    // let $ball=$('#ball')
+    // let $bard=$('#bard')
+    var main=document.getElementById('main')
+    var ball=document.getElementById('ball')
+    var bard=document.getElementById('bard')
+
+    ball.speedX=1
+    ball.speedY=1
+    // $ball.run_=function () {
+    ball.run=function () {
+        var left=parseInt(this.style.left)+this.speedX
+        var top=parseInt(this.style.top)+this.speedY
+        //赋值给小球
+        this.style.left=left+'px';
+        this.style.top=top+'px';
+
+        //检测
+        this.check()
+    }
+    //碰撞检测
+    ball.check=function(left,top){
+        if (left==0 || left==370){
+            //碰撞了 左右 速度改为负数
+            this.speedX=-1
+        }
+        if (top==370 || top==0){
+            //碰撞了 上下 速度改为负数
+            this.speedY=-1
+        }
+    }
+
+    //定时器
+    setInterval(function () {
+        ball.run()
+    },20)
+</script>
+</body>
+</html>

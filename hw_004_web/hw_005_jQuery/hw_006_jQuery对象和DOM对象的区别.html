@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_006_jQuery对象和DOM对象的区别</title>
+</head>
+<body>
+<ul>
+    <li id="Magicians">法师</li>
+    <li>坦克</li>
+    <li>射手</li>
+    <li>战士</li>
+</ul>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    /**
+     * 1.什么是DOM对象
+     *      没学jQuery之前的对象都是DOM对象
+     *      DOM对象也叫js对象,通过JavaScript获取的元素
+     */
+    var magicians=document.getElementById('Magicians')
+    //jQuery对象
+    var $li=$('li')
+    $li.text('修改了内容后...')
+    //jQuery对象和DOM对象的联系
+    /**
+     * jQuery对象可以用DOM对象的属性和方法
+     *
+     * DOM对象不可以使用jQuery对象的属性和方法,要使用需要转换
+     *
+     */
+</script>
+</body>
+</html>

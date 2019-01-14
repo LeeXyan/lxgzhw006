@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_004_js代码的写法</title>
+</head>
+<body>
+
+<script>
+    /**
+     * 页面中有什么代码
+     *
+     *      HTML
+     *          结构
+     *      CSS
+     *          美化页面
+     *      JavaScript
+     *          操作页面
+     *
+     *  js的代码可以分三个地方:
+     *      1.在HTML的文件中,script标签中写js代码
+     */
+    alert('锄禾日当午,汗滴禾下土.谁知盘中餐,粒粒皆辛苦.')//在页面弹出对话框
+</script>
+
+
+<!--在HTML的属性里面写JavaScript代码
+
+内嵌代码
+-->
+<input type="button" value="按钮" onclick="alert('按钮弹窗')">
+
+<!--外部引入JavaScript文件-->
+<script src="hw_004.js"></script>
+
+
+<!--需要注意的问题
+
+在一对Script标签中,有错误的js代码,那么该错误后面的代码都不会执行
+
+-->
+<script>
+    alert('哈哈哈';
+    alert(;哈哈))
+</script>
+<script>
+    /**
+     * 只要不在 同一个script标签中,前面的错误不会对后面产生影响
+     */
+    alert('哈哈')
+
+    /***
+     * script标签中可以写什么内容
+     * 有可能出现这种情况:
+     *      script标签中同时出现type和language的写法
+     */
+
+</script>
+</body>
+</html>

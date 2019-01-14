@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_005_总结script标签的注意问题</title>
+</head>
+<body>
+<script>
+    /**
+     * script标签在页面中可以出现多对
+     * script标签一般是放在body标签的最后的,有的时候会在head标签中
+     *
+     * 为什么放在后面呢:
+     *      采用引入的方法
+     *      页面很多内容都是在body里面,浏览器从上到下加载
+     *
+     *      如果要操作body里面的内容,需要等加载完,所以放在body后面最好
+     * 如果script标签是引入外部js文件的作用,那么,这对标签中不要写
+     * 任何js代码,如果要写,重开一对script标签
+     *
+     *
+     * 放在哪儿都可以,但是要遵循规范,代码块放在body的底部
+     *
+     * 很多注意的问题,就是容易犯错的地方,要多犯错,多解决
+     */
+    alert('好开心...')//写完以后要先保存,再运行
+</script>
+</body>
+</html>

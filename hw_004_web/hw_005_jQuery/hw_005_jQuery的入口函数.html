@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_005_jQuery的入口函数</title>
+</head>
+<body>
+<!--图片先被加载 之后jQuery执行-->
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547296402516&di=2eb2c01d9a214fccc28acb24cb5f7361&imgtype=0&src=http%3A%2F%2Fb.zol-img.com.cn%2Fdesk%2Fbizhi%2Fstart%2F2%2F1363857521405.jpg" alt="">
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    /**
+     * 写在下面入口函数不用写,但是建议写上
+     * 写更少的代码,做更多的事情
+     */
+    window.onload=function(){
+        //在最后执行
+        alert('...')
+    }
+    $(document).ready(function () {
+        alert('jQuery函数的第一种入口函数写法...')
+    })
+
+    //推荐用第二种
+    $(function () {
+        //没有被覆盖
+        alert('入口函数的第二种写法...')
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+alert('被引入的JavaScript')

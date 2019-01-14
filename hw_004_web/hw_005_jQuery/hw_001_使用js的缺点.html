@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_001_使用js的缺点</title>
+    <style>
+        .box{
+            width: 100%;
+            height: 200px;
+            background-color: red;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="展示" id="btn1">
+<input type="button" value="显示内容" id="btn2">
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    /***
+     * 目标:
+     *      学会如何使用jQuery,掌握jQuery的常用api
+     *      能够使用jQuery实现常见的效果
+     *  案例1:
+     *      动态展示与设置内容
+     *
+     *      两个按钮,三个div
+     *
+     *      三个div默认隐藏.点击按钮1显示div 点击按钮2显示div内容
+     *
+     */
+    var btn1=document.getElementById("btn1")
+    var btn2=document.getElementById("btn2")
+    var divs=document.getElementsByTagName("div")
+    //不爽的地方
+    /**
+     * 需要遍历,可能还需要嵌套
+     * 找对象不方便,只能通过id,类,标签,方法很少,还长
+     * 兼容性的问题
+     * 代码多,比较麻烦
+     * 做动画效果比较麻烦-哪怕是简单的动画效果
+     * js注册事件会被覆盖
+     */
+     btn1.onclick=function () {
+         for (var i=0;i<divs.length;i++){
+             divs[i].style.display="block"
+         }
+     }
+     btn2.onclick=function () {
+         for (var i = 0; i < divs.length; i++) {
+             //低版本火狐浏览器不支持innerText,支持textContent
+             divs[i].innerText="我是内容"
+         }
+     }
+</script>
+</body>
+</html>
