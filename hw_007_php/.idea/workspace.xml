@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce1695e3-3eac-4b8e-938a-81905b7bbfa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/data/911.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/hw_014_911数据处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/hw_015_不同月份不同类型的紧急电话情况.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/hw_016_时间序列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/hw_017_统计911不同月份不同类型的变化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/hw_018_统计911不同月份不同类型的电话.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/911.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/PM2.5/BeijingPM20100101_20151231.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/PM2.5/ChengduPM20100101_20151231.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/PM2.5/GuangzhouPM20100101_20151231.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/PM2.5/ShanghaiPM20100101_20151231.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/PM2.5/ShenyangPM20100101_20151231.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/day05复习.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/.idea/douban.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/.idea/preferred-vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/7分以上的电视剧时间的分布散点图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/Tourism.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/data_visualization/data_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/data_visualization/show_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/data_visualization/tag_count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/data_visualization/tv_date_distribute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/data_visualization/tv_date_distribute_by_country.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/spider/douban_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/spider/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/spider/save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/不同分类电视剧的数量统计.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/不同国家7分以上的电视剧随时间的变化情况.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/各个国家豆瓣电视剧平均分统计.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/douban/没用的.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/page142.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/page142_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/page148.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/page148_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/参考资料/参考资料2/page149.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_004_BookRead/hw_002_pandas-official-tutorials-zh/hw_001_创建对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_004_BookRead/hw_003_matplotlib-intro-tut-zh/hw_001_hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_004_BookRead/hw_003_matplotlib-intro-tut-zh/hw_002_图例_标题和标签.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_004_BookRead/hw_003_matplotlib-intro-tut-zh/hw_003_条形图和直方图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_004_BookRead/hw_003_matplotlib-intro-tut-zh/hw_004_直方图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_004_BookRead/hw_003_matplotlib-intro-tut-zh/simhei.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_002_LargeData/hw_004_BookRead/hw_003_matplotlib-intro-tut-zh/simhei.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_002_jQuery属性方法和动画方法/hw_001_css操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_002_jQuery属性方法和动画方法/hw_002_添加_移除_切换类.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_002_jQuery属性方法和动画方法/hw_003_属性操作attr方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_002_jQuery属性方法和动画方法/hw_004_布尔值属性专用方法prop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_002_jQuery属性方法和动画方法/hw_005_表格全选案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_002_jQuery属性方法和动画方法/images/04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery1.11.0_中文.chm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/0f96766cc0654d8d90b89580751966d7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/ados" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/comment-reply.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/i.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/jquery-in-action.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/jquery-succinctly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/learning-jquery-4th-ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/modernizr.custom.2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/wde1aof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/wp-embed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Browser Support _ jQuery_files/wp-emoji-release.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/ados" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/bc85dff2b3dc44ddb9650e1659b1ad1e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/comment-reply.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/i.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/jquery-in-action.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/jquery-succinctly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/learning-jquery-4th-ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/modernizr.custom.2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/wde1aof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/wp-embed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/Download jQuery _ jQuery_files/wp-emoji-release.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/ados" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/bc85dff2b3dc44ddb9650e1659b1ad1e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/i.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/jquery-in-action.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/jquery-succinctly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/learning-jquery-4th-ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/modernizr.custom.2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/wde1aof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/wp-embed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery API Documentation_files/wp-emoji-release.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/41901dd31b1a47448bf2afdb0dc41782.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/ados" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/comment-reply.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/famous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/i.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/jquery-in-action.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/jquery-succinctly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/learning-jquery-4th-ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/maxcdn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/modernizr.custom.2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/neobux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/wde1aof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/wordpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/wp-embed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery官网/jQuery_files/wp-emoji-release.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery版本/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery版本/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery版本/jquery-2.2.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery版本/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery版本/jquery-3.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery版本/jquery-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/jQuery第一天笔记.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/js/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/js/ztree_toc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/js/ztree_toc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/style/Clearness Dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/style/Clearness.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/style/GitHub.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/style/GitHub2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc/style/makedownpad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/toc_conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/preview/笔记.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/01-教学资料/笔记/笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/.idea/04-代码.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/01-匿名自调用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/02-div动态展示与设置内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/03-jQuery初体验.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/04-jQuery的入口函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/05-DOM对象（js对象）与jq对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/06-隔行变色.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/07-$符号的实质.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/08-基本选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/09-子类选择器和后代选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/10-过滤选择器（隔行变色）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/11-筛选选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/12-下拉菜单案例/imgs/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/12-下拉菜单案例/imgs/libg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/12-下拉菜单案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/13-突出展示案例/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/13-突出展示案例/images/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/13-突出展示案例/images/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/13-突出展示案例/images/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/13-突出展示案例/images/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/13-突出展示案例/images/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/13-突出展示案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/14-手风琴案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/QQ截图20121215110234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/abg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/lili.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/冬裙.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/呢大衣.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/围巾.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/女包.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/女裤.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/女靴.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/棉服.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/毛衣.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/牛仔裤.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/男包.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/男棉服.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/男毛衣.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/男靴.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/登山鞋.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/皮带.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/皮衣.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/羽绒服.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/images/雪地靴.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/15-淘宝精品案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/16-index方法详解.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/17-复习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/19-jQuery第一天/04-代码/京东呼吸灯/01-jd/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/01-教学资料/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/01-教学资料/演示jQuery动画（animate）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/.idea/04-代码.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/01-css操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/02-class操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/03-tab栏切换/imgs/guojidapai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/03-tab栏切换/imgs/guozhuangmingpin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/03-tab栏切换/imgs/nanshijingpin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/03-tab栏切换/imgs/qingjieyongpin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/03-tab栏切换/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/04-属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/1-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/2-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/3-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/4-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/images/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/05-美女相册/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/06-prop方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/07-表格全选案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/08-三组基本动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/09-滑入滑出动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/10-淡入淡出动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/11-下拉菜单案例/imgs/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/11-下拉菜单案例/imgs/libg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/11-下拉菜单案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/12-京东轮播图/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/13-自定义动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/14-手风琴案例/01-页面初始化.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/14-手风琴案例/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/14-手风琴案例/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/14-手风琴案例/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/14-手风琴案例/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/14-手风琴案例/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/15-动画队列.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/16-停止动画详解.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-动态创建节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/01-页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/movie/movie01.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/8.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/17-音乐导航/mp3/9.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/18-jquery创建与添加节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/19-城市选择案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/20-微博发布案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/20-清空节点与删除节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/22-弹幕效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/23-复习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/20-jQuery第二天/04-代码/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/js/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/js/ztree_toc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/js/ztree_toc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/style/Clearness Dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/style/Clearness.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/style/GitHub.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/style/GitHub2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc/style/makedownpad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/toc_conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/preview/笔记.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/JQ03/笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/js/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/js/ztree_toc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/js/ztree_toc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/style/Clearness Dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/style/Clearness.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/style/GitHub.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/style/GitHub2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc/style/makedownpad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/toc_conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/preview/笔记.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/01-教学资料/笔记/笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/.idea/04-代码.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/01-复习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/02-val方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/03-html方法与text方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/04-width方法与height方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/05-scrollTop与scrollLeft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/06-固定导航案例/images/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/06-固定导航案例/images/nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/06-固定导航案例/images/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/06-固定导航案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/07-小火箭返回顶部案例/images/gotop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/07-小火箭返回顶部案例/images/gotop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/07-小火箭返回顶部案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/07-小火箭返回顶部案例/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/08-offset方法与position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/09-jquery事件机制的发展历程.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/10-on注册事件的两种方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/11-事件的执行顺序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/12-表格删除功能.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/13-移除事件绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/14-事件对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/15-阻止冒泡和阻止浏览器的默认行为.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-delay的用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/08-钢琴版导航条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/8.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/16-钢琴案例/mp3/9.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/17-链式编程.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/18-五星评分案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/19-each方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/20-$冲突.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/21-复习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/itcast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/21-jQuery第三天/04-代码/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/JQuery UI API.chm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/20-封装jquery插件/01-入门.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/20-封装jquery插件/02-封装手风琴插件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/20-封装jquery插件/03-测试手风琴插件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/20-封装jquery插件/jquery.accord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/20-封装jquery插件/jquery.bgColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/.mailmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.10.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.10.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.10.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.10.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.10.2/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.10.2/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.11.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.11.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.11.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.11.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.5.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.5.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.5.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.5.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.5.2/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.5.2/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.2/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.2/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.3/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.3/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.4/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.6.4/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.7.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.7.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.7.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.7.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.7.2/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.7.2/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.8.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.8.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.8.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.8.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.8.2/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.8.2/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.8.3/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.8.3/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.9.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.9.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.9.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-1.9.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.0.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.0.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.0.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.0.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.0.2/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.0.2/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.0.3/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.0.3/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.1.0/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.1.0/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.1.1/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/jquery-2.1.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/qunit/MIT-LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/qunit/qunit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/external/qunit/qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/jquery.color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/jquery.color.svg-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/test/data/swarminject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/test/data/testinit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/test/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/test/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/test/unit/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-color-master/jquery-color-master/test/unit/color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/CHANGELOG.textile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/disabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_container.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_fadein.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_gazillion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_noscript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_timeout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_wide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/enabled_wide_container.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/bmw_m1_hood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/bmw_m1_side.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/bmw_m3_gt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/corvette_pitstop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/grey.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/transparent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/viper_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/viper_corner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/img/white.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/jquery.lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/jquery.lazyload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/jquery.scrollstop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/jquery.scrollstop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/lazyload.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/jquery-plugins/jquery_lazyload-1.9.5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/js/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/js/ztree_toc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/js/ztree_toc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/style/Clearness Dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/style/Clearness.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/style/GitHub.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/style/GitHub2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc/style/makedownpad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/toc_conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/preview/笔记.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/01-教学资料/笔记/笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/.idea/04-代码.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/01-jquery.color.js的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/02-jquery.lazyload.js的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/03-jqueryui实现新闻模块.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/04-原型初体验.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/05-简易版本的jquery插件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/06-手风琴.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/07-手风琴测试.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/jquery.bgColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/jquery.color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/参考资料/22-jQuery第四天/04-代码/jquery.lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_002_数据类型的转换/hw_020_复习.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_001_打印PHP配置信息.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_002_打印服务器时间.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_003_md5函数.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_004_打印当前执行的PHP文件名字.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_005_打印系统环境信息.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_006_比较两个时间戳的大小.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_007_sha1加密算法.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_008_随机数字.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_009_mt_rands随机种子案例.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_010_生成随机小数.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_011_生成随机验证码方法1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_012_生成随机的颜色.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_013_生成0到1之间的随机数.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_014_四个字颜色的随机变化.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_015_总结.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_001_字符串长度函数strlen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_002_字符串转换为数组.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_003_去除字符串中的空格和特殊字符.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_004_返回字符串的子串.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_005_分割字符串.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_006_合成字符串.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_007_所有字符串大写.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_008_所有字符串小写.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_009_首个单词的首字母大写.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_010_所有单词首字母大写.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_005_运算符/hw_001_求余.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_005_运算符/hw_002_求幂.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_005_运算符/hw_003_自增自减运算符.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_001_hello.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_002_user2表格的相关操作.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_003_准备一张表并插入多个数据.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_004_准备psd1803的数据.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_001_创建数据表.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_002_插入数据.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_003_插入多条数据.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_004_预处理语句.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_005_读取数据.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_006_where语句.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_007_link.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/READEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/hw_001_link.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/hw_002_将从数据库读取的数据渲染到html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/hw_003_mysqliDemo1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/08_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/08_a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/08_a2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/08_a3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/08_a4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/08_adangqian.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/luoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/01_phpinfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/02_mysqli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/03_mysqli_demo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/04_mysqli_demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/04_mysqli_demo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/05_zhece.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/05_zhuce.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/06_denglu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/06_denglu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/Day01.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/07_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/07_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/07_table_onec.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/102c60d6d2ee4349b396f4fc2c113c87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/138d8a8c6b2b00cd1271cff92356427e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/1dd1f4fde8a0fb1498811069add72a55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/3103eb1ef225f3d1c8ef5ad457a9d92d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/345071a0fc0f428aaa3388ed38d88a07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/57dba6c426490496340d9965fa224353.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/661293cd34058ae3a615eea93a305f75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/6d6bb1873e09e8701822d0615d7cdd3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/a98d7e8813b9636f49ba9c16ac4cd1ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/b2349cb47570b9ac5aab268cdd92b585.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/ca187279b2667f64af61e545c634e52a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/e4c4a65d1fc621ac748a472e5093d058.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/table/upload/fc8780c470556b13a8402bca51f79241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/作业.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/01_mysqli_fetch_all.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/02_mysqli_fetch_array.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/03_mysqli_fetch_assoc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/04_mysqli_num_rows.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/05_mysqli_affected_rows.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/06_mysqli_insert_id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/07_por.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/08_a/08_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/08_a/08_a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/08_a/08_a2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/08_a/08_a3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/08_a/08_a4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/08_a/luoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/Day02.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/zuoye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/zuoye.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day02/zuoye.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day03/01_mysqli_fengzhuang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day03/02_mysqli_fengzhuang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day03/03_define.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day03/Day03.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day03/fenyexianshi/01_fenye.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day03/zuoye.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/PythonWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/PythonWork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_002_LargeData/hw_003_pandas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_使用js的缺点.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_001_使用js的缺点.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_002_jQuery初体验.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_002_jQuery初体验.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_003_什么是jQuery.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_003_什么是jQuery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_004_jQuery版本问题.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_004_jQuery版本问题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_005_jQuery的入口函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_005_jQuery的入口函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_006_jQuery对象和DOM对象的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_006_jQuery对象和DOM对象的区别.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_007_隔行变色.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_007_隔行变色.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_008_jQuery方法隔行变色.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_008_jQuery方法隔行变色.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_009_$的本质.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_009_$的本质.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_010_jQuery的基本选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_010_jQuery的基本选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_011_jQuery的层级选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_004_web/hw_005_jQuery/hw_001_jQuery入门/hw_011_jQuery的层级选择器.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="14fdbc15-2f7b-4871-86f0-90d0d21dfa81">
+        <node key="php_01" />
+      </node>
+    </checked>
+    <expanded>
+      <node key="14fdbc15-2f7b-4871-86f0-90d0d21dfa81" />
+    </expanded>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_007_link.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/08_a.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day03/zuoye.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/hw_001_link.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="7" selection-end-line="73" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/hw_002_将从数据库读取的数据渲染到html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/03_mysqli_demo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-405">
+              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_004_准备psd1803的数据.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/hw_003_mysqliDemo1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/READEME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_003_准备一张表并插入多个数据.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_002_数据类型的转换/hw_019_max函数.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_002_数据类型的转换/hw_020_复习.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_001_打印PHP配置信息.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_002_打印服务器时间.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_004_打印当前执行的PHP文件名字.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_05_打印系统环境信息.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_sha1加密算法.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_006_比较两个时间戳的大小.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_009_mt_rands随机种子案例.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_010_生成随机小数.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_011_生成随机验证码方法1.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_013_生成0到1之间的随机数.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_008_随机数字.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_014_嵌套PHP生成随机数字.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_012_生成随机的颜色.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/test.html" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_014_四个字颜色的随机变化.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_003_md5函数.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_003_md5函数.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_015_总结.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_001_字符串长度函数strlen.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_002_分割字符串并转换为数组.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_003_去除字符串中的空格和特殊字符.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_005_分割字符串.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_006_合成字符串.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_004_返回字符串的子串.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_所有字符串大写.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_008_所有字符串小写.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_009_首个单词的首字母大写.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_010_所有单词首字母大写.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_001_求余.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_003_求模.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_002_求幂.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_003_自增运算符.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_003_自增自减运算符.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_001_hello.sql" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_002_user2表格的相关操作.sql" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_001_创建数据表.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_002_插入数据.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_003_插入多条数据.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_004_预处理语句.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_005_读取数据.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_006_where语句.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_007_link.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_003_准备一张表并插入多个数据.sql" />
+        <option value="$PROJECT_DIR$/hw_002_MySQLi/hw_001_link.php" />
+        <option value="$PROJECT_DIR$/hw_002_MySQLi/hw_002_将从数据库读取的数据渲染到html.php" />
+        <option value="$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/03_mysqli_demo.php" />
+        <option value="$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_004_准备psd1803的数据.sql" />
+        <option value="$PROJECT_DIR$/hw_002_MySQLi/hw_003_mysqliDemo1.php" />
+        <option value="$PROJECT_DIR$/hw_002_MySQLi/READEME.md" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="5d25d408-45e5-44ea-89b3-3b7af6b99dec" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.0">
+    <include_path>
+      <path value="/usr/share/php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="44" />
+    <option name="width" value="868" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hw_007_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw_007_php" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw_007_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw_007_php" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_001_standard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw_007_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw_007_php" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_001_standard" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_006_MySQL数据库" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw_007_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw_007_php" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_002_MySQLi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw_007_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw_007_php" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_002_MySQLi" type="462c0819:PsiDirectoryNode" />
+              <item name="参考资料" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw_007_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw_007_php" type="462c0819:PsiDirectoryNode" />
+              <item name="hw_002_MySQLi" type="462c0819:PsiDirectoryNode" />
+              <item name="参考资料" type="462c0819:PsiDirectoryNode" />
+              <item name="Day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hw_002_MySQLi" />
+      <recent name="$PROJECT_DIR$/hw_002_MySQLi/参考资料" />
+      <recent name="$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库" />
+      <recent name="$PROJECT_DIR$/hw_001_standard/参考资料" />
+      <recent name="$PROJECT_DIR$/hw_001_standard/参考资料/参考资料001" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hw_001_standard/hw_005_运算符" />
+      <recent name="$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法" />
+      <recent name="$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成" />
+      <recent name="$PROJECT_DIR$/hw_001_standard/hw_001_数据类型" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.hw_003_mysqliDemo1.php">
+    <configuration name="03_mysqli_demo.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw_007_php/hw_002_MySQLi/参考资料/Day01/03_mysqli_demo.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_001_link.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw_007_php/hw_002_MySQLi/hw_001_link.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_002_将从数据库读取的数据渲染到html.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw_007_php/hw_002_MySQLi/hw_002_将从数据库读取的数据渲染到html.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_003_mysqliDemo1.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw_007_php/hw_002_MySQLi/hw_003_mysqliDemo1.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_007_link.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw_007_php/hw_001_standard/hw_007_MySQLi函数库/hw_007_link.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Web Page.localhost" />
+      <item itemvalue="JavaScript Debug.hw_007_link.php" />
+      <item itemvalue="JavaScript Debug.hw_001_link.php" />
+      <item itemvalue="JavaScript Debug.hw_002_将从数据库读取的数据渲染到html.php" />
+      <item itemvalue="JavaScript Debug.03_mysqli_demo.php" />
+      <item itemvalue="JavaScript Debug.hw_003_mysqliDemo1.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.hw_003_mysqliDemo1.php" />
+        <item itemvalue="JavaScript Debug.03_mysqli_demo.php" />
+        <item itemvalue="JavaScript Debug.hw_002_将从数据库读取的数据渲染到html.php" />
+        <item itemvalue="JavaScript Debug.hw_001_link.php" />
+        <item itemvalue="JavaScript Debug.hw_007_link.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce1695e3-3eac-4b8e-938a-81905b7bbfa9" name="Default Changelist" comment="" />
+      <created>1547296069956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547296069956</updated>
+      <workItem from="1547296078281" duration="203000" />
+      <workItem from="1547296448218" duration="6824000" />
+      <workItem from="1547303297746" duration="351000" />
+      <workItem from="1547370380168" duration="14514000" />
+      <workItem from="1547387918475" duration="307000" />
+      <workItem from="1547453020755" duration="21246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43445000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="941" height="943" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24524076" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" visible="true" weight="0.27475247" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32920793" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.399757" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32922733" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_004_打印当前执行的PHP文件名字.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_007_sha1加密算法.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_006_比较两个时间戳的大小.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_010_生成随机小数.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_011_生成随机验证码方法1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_013_生成0到1之间的随机数.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_009_mt_rands随机种子案例.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_014_嵌套PHP生成随机数字.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_008_随机数字.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_012_生成随机的颜色.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_014_四个字颜色的随机变化.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_003_md5函数.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_字符串加密和随机数生成/hw_015_总结.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/参考资料/Day03/作业.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_001_字符串长度函数strlen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_003_去除字符串中的空格和特殊字符.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="552" column="9" selection-start-line="552" selection-start-column="9" selection-end-line="552" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_002_字符串转换为数组.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_005_分割字符串.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_006_合成字符串.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_004_返回字符串的子串.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_007_所有字符串大写.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_008_所有字符串小写.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_009_首个单词的首字母大写.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_004_字符串方法/hw_010_所有单词首字母大写.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_005_运算符/hw_001_求余.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_003_求模.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_005_运算符/hw_002_求幂.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/14fdbc15-2f7b-4871-86f0-90d0d21dfa81/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_005_运算符/hw_003_自增自减运算符.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_001_hello.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_002_user2表格的相关操作.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_001_创建数据表.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_002_插入数据.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_003_插入多条数据.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_004_预处理语句.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_005_读取数据.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_006_where语句.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_007_MySQLi函数库/hw_007_link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/参考资料/08_a/08_a.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day03/zuoye.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="2132" column="9" selection-start-line="2132" selection-start-column="9" selection-end-line="2132" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/hw_001_link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="7" selection-end-line="73" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/hw_002_将从数据库读取的数据渲染到html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/02_mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/参考资料/Day01/03_mysqli_demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_003_准备一张表并插入多个数据.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_004_准备psd1803的数据.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/hw_003_mysqliDemo1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw_002_MySQLi/READEME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

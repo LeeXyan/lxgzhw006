@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<!-- 通过HTML页面：
+1，传参1，模糊查询的关键字
+2，传参2，模糊查询的字段 
+3，传参到指定页面2
+-->
+
+	<form action="08_a.php" method="post">
+		<input type="text" name="key" placeholder="请输入需要查询的内容">
+		<br>
+
+		<select name="type">
+			<option value="0">序号</option>
+			<option value="1">姓名</option>
+			<option value="2">年龄</option>
+			<option value="3">性别</option>
+			<option value="4">城市</option>
+			<option value="5">部门</option>
+			<option value="6">薪酬</option>
+		</select>
+		<br>
+
+		<button type="submit">查询</button>
+
+<!-- 超链接传参 -->
+
+<!-- 超链接点击跳转和form表单中的按钮点击跳转是没有任何关系的 -->
+
+<!-- 超链接传递参数有固定格式：
+
+<a herf = "地址?键值对形式传参">内容</a> -->
+
+<!-- PHP程序，要以$_GET预定义变量接收超链接参数 -->
+
+<!-- 超链接的传参，与form表单等其他标签，没有任何关系，写在任何位置都可以点击传参 -->
+
+<!-- <a href="08_a.php?abc=123">传参</a> -->
+
+
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 确保：1，form表单参数配置正确 
+			   2，input标签需要有name属性
+	-->
+	<form action="zuoye.php" method="post">
+
+		<!-- 通过input标签，输入需要查找内容的关键词 -->
+		<input type="text" name="key" placeholder="请输入需要查询的信息"><br>
+
+		<!-- 通过select，选择需要查询的字段 -->
+		<select name="type">
+			<option value="0">序号</option>
+			<option value="1">姓名</option>
+			<option value="2">年龄</option>
+			<option value="3">性别</option>
+			<option value="4">城市</option>
+			<option value="5">部门</option>
+			<option value="6">薪酬</option>
+		</select><br><br>
+		
+
+		<!-- 选择输出内容的排序方式 -->
+		请您选择输出内容的排序方式<br>
+
+		<select name="paixu">
+			<option value="0">序号</option>
+			<option value="1">年龄</option>
+			<option value="2">薪资</option>
+		</select>
+
+		<select name="order">
+			<option value="0">升序</option>
+			<option value="1">降序</option>
+		</select>
+
+		<br>
+		<button type="submit">查询</button> 
+	</form>
+</body>
+</html>

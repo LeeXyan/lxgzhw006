@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<!-- 	1，form表单的设置
+	传参对象仍然是需要接受数据的PHP文件，method的属性值必须是post，
+
+	enctype，属性值，一定是：multipart/form-data
+
+	默认的编码格式，支持文档的传递
+
+	multipart/form-data，将上传的文件，转换成二进制格式
+
+	input标签必须要有个name属性，如果是多文件上传，name的属性值必须相同，并且在之后添加[] -->
+
+	<form action="05_file.php" method="post" enctype="multipart/form-data">
+
+		<input type="file" name="pic">
+		
+		<button type="submit">注册</button>
+	</form>
+</body>
+</html>

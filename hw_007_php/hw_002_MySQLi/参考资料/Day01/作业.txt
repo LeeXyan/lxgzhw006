@@ -1,0 +1,8 @@
+1，独立实现今天所有demo
+
+
+2，在04demo的基础之上，实现table表格显示内容，可以按照id的升序或者降序排列
+
+select * from use2
+where age like "%1%"
+order by id desc;

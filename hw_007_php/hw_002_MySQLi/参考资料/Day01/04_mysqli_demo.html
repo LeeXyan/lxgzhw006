@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 确保：1，form表单参数配置正确 
+			   2，input标签需要有name属性
+	-->
+	<form action="04_mysqli_demo.php" method="post">
+		<input type="text" name="key" placeholder="请输入需要查询的信息"><br>
+
+		
+		<select name="type">
+			<option value="0">序号</option>
+			<option value="1">姓名</option>
+			<option value="2">年龄</option>
+			<option value="3">性别</option>
+			<option value="4">城市</option>
+			<option value="5">部门</option>
+			<option value="6">薪酬</option>
+		</select>
+
+		<br>
+		<button type="submit">查询</button> 
+	</form>
+</body>
+</html>
+
+
+<!-- 
+实现的思路： 
+1，最简单的方法
+
+给select标签中，optiong中value属性，添加选择内容对应的字段名称，作为参数，传递给PHP后台
+
+PHP后台接收到相应的数据参数，将其作为查询语句select中，where约束条件之后，模糊查询的字段内容
+
+
+
+
+2，实际项目中前端option的value的属性值一般是从0开始的数字
+
+可以使用switch判断语句，比较繁琐，通常使用数组读取数据的形式来解决
+
+
+
+option为什么一定要是数字
+
+1，字段名称有可能是中文，在数据传递过程中，因为浏览器的不同，有可能造成数据无法准确传输
+
+2，如果字段名称很长，有可能造成数据传输时间过长，数据传输失败
+
+
+
+-->
+

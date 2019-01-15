@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_001_hello.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_002_user2表格的相关操作.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/hw_001_standard/hw_006_MySQL数据库/hw_004_准备psd1803的数据.sql" dialect="MySQL" />
+  </component>
+</project>

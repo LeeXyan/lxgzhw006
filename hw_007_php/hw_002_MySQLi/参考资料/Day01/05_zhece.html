@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 注册的数据库，跟其他的数据库不太一样 -->
+	<!-- 注册信息，尤其是关键内容，必须使用加密方式md5 -->
+
+	<!-- 因为使用的密文形式，MySQL数据中，表结构的设定也会不同 -->
+
+
+	<!-- 在cmd中建立数据库 -->
+
+	<!-- 账号和密码都要密文保存，账号是不能重复的 -->
+
+<!-- 	create table zhuce(
+	`id` int key auto_increment,
+	userName char(32) not null unique,
+	userPwd char(32)
+	); -->
+
+
+	<!-- 前端注册页面 -->
+
+
+	<form action="05_zhuce.php" method="post">
+		<input type="text" placeholder="请输入注册账号" name="userName"><br>
+		<input type="password" placeholder="清输入注册密码" name="userPwd"><br>
+
+		<button type="submit">注册</button>
+
+	</form>
+
+
+
+</body>
+</html>

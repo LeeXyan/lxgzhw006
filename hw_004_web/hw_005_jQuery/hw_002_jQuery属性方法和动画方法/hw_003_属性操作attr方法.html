@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性操作attr方法</title>
+</head>
+<body>
+<img src="images/04.gif" alt="原始属性">
+
+<hr>
+<br>
+<br>
+<br>
+<div>
+    <img src="#" alt="开始没有图片">
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    /**
+     * 属性操作 attr(键,值)
+     */
+    let $src=$('img').eq(0).attr('src')
+    $('img').eq(1).click(function () {
+        $(this).attr('src',$src)
+    })
+</script>
+</body>
+</html>

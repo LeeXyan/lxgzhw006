@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_001_css操作</title>
+</head>
+<body>
+<!--一个ul列表-->
+<ul>
+    <li>第1列</li>
+    <li>第2列</li>
+    <li>第3列</li>
+    <li>第4列</li>
+</ul>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    /**
+     * 分析
+     *      jQuery操作css属性,有一个css方法
+     *          传1个参数,获取样式
+     *          传2个参数,改变其一个样式属性
+     *          传一个字典,改变多个样式
+     */
+    //获取ul中的li
+    $('ul li').css({
+        'backgroundColor':'red',
+        'color':'gold',
+        'fontSize':'24px',
+    })
+
+    //对特殊li做处理
+    $('ul li').eq(2).css('backgroundColor','blue')
+
+</script>
+</body>
+</html>

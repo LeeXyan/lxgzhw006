@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.div1{
+			text-shadow: 2px 2px 2px red;
+		}
+
+		.div2{
+			width: 100px;
+			height: 100px;
+			border: 1px solid red;
+			
+		}
+
+		/*制作边框周围鼠标经过出现光晕的效果*/
+
+		.div2:hover{
+			box-shadow: 0px 0px 3px 3px blue;
+		}
+	</style>
+</head>
+<body>
+<!-- 	阴影效果：
+
+	1，文字阴影
+	2，盒子阴影 -->
+
+	<!-- 文字阴影：属性：text-shadow 
+		四个属性值，都是像素距离
+			1，X轴阴影的偏移量(必写属性)
+			2，Y轴阴影的偏移量(必写属性)
+			3，阴影模糊的偏移量(可写属性)
+			4，阴影的颜色(可写属性)
+
+
+		盒子阴影：box-shadow
+		六个属性：
+			1，必需的。X轴阴影的位置。允许负值v-shadow	
+			2，必需的。Y轴阴影的位置。允许负值blur	
+			3，可选。模糊距离spread	
+			4，可选。阴影的大小
+			5，color	可选。阴影的颜色。在CSS颜色值寻找颜色值的完整列表
+			6，inset	可选。从外层的阴影（开始时）改变阴影内侧阴影
+
+
+
+	-->
+
+
+	<div class="div1">北京你好</div>
+
+	<div class="div2"></div>
+</body>
+</html>

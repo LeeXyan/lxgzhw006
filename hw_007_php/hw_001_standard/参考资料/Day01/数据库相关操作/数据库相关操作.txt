@@ -1,0 +1,36 @@
+1，增加 新建
+
+简写 
+
+CREATE DATABASE 库名(小写);
+
+
+标准格式
+
+CREATE DATABASE [IF NOT EXISTS] 库名
+[DEFAULT] CHATACTER SET [=] UTF8;
+
+CHATACTER SET 可以使用 CHARSET 代替
+
+
+2，删除
+
+简写
+
+DROP DATABASE 库名;
+
+
+
+标准
+
+DROP DATABASE [IF EXISTS] 库名;
+
+
+
+
+
+
+
+
+
+

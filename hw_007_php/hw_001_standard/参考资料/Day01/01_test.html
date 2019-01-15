@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		ul,li{
+			list-style: none;
+		}
+
+		.div1{
+			background: #990000;
+		}
+
+		.div1>ul{
+			width: 800px;
+			margin: 0 auto;
+	
+		}
+
+		.div1>ul:after{
+			display: block;
+			content: "";
+			clear: both;
+		}
+
+		.div1>ul>li{
+			float: left;
+			color: white;
+			line-height: 50px;
+			padding: 0px 17px;
+		}
+
+		.div1>ul>li:hover{
+			background: black;
+		}
+
+		.div1>ul>li:first-child{
+			padding-left:0px; 
+		}
+
+		.div1>ul>li:last-child{
+			padding-right: 0px; 
+		}
+
+
+		/*三角居中*/
+
+		.div2{
+			position: relative;
+			width: 200px;
+			height: 100px;
+			border: 1px solid red;
+			
+		}
+
+		.div2:hover{
+			background: red url("2.png") no-repeat bottom;
+
+		}
+
+		/*.div2>div{
+			position: absolute;
+			bottom: 0px;
+			left: ;
+			width: 0px;
+			height: 0px;
+			border-bottom: 8px solid blue;
+			border-left: 8px solid transparent;
+			border-right:  8px solid transparent;
+			display:none;
+		}
+
+		.div2:hover>div{
+			display:block;
+		}
+
+
+		*/
+
+
+	</style>
+</head>
+<body>
+	<!-- 原则：
+		1，不要添加无意义的父级包裹
+		2，CSS中尽量不要使用id选择器,留给JavaScript
+		3，使用父子选择器给所有子级标签添加盒模型属性，需要特别注意，某些标签是需要再去掉相关的属性
+		4，使用定位和浮动的元素，没办法使用margin:0 auto 水平居中
+
+
+
+	-->
+
+	<!-- 自我检查：1，思考有没有多余的父级包裹，看css样式是否可以通过其他标签实现 
+
+				   2，页面当中的布局，没有一定之规，要根据实际效果，实际情况来进行不同处理
+	-->
+
+	<div class="div1">
+		<ul>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+			<li>国际</li>
+		</ul>
+	</div>
+
+	<div class="div2">
+		<div></div>
+	</div>
+</body>
+</html>

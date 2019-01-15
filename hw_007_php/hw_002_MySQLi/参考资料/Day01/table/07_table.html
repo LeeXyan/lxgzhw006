@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 通过前端输入数据，将数据写入数据库，再从数据调出内容，生成table表格 -->
+
+
+	<!-- 前端实现的是数据上传 -->
+
+	<!-- <form action="07_table.php" method="post" enctype="multipart/form-data"> -->
+
+	<form action="07_table_onec.php" method="post" enctype="multipart/form-data">
+
+		姓名：<input type="text" name="un"><br>
+		年龄：<input type="text" name="age"><br>
+		性别：男<input type="radio" name="sex" value="0">
+			  女<input type="radio" name="sex" value="1">
+			  保密<input type="radio" name="sex" value="2"><br>
+		照片：<input type="file" name="pic"><br>
+		<button type="submit">注册</button>
+
+	</form>
+</body>
+</html>

@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hw_002_LargeData/hw_004_BookRead/hw_002_pandas-official-tutorials-zh/pandas-official-tutorials-zh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hw_002_LargeData/hw_004_BookRead/hw_003_matplotlib-intro-tut-zh/matplotlib-intro-tut-zh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hw_008_game/hw_001_打外星人/PythonPractice" vcs="Git" />
   </component>
 </project>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_013_筛选选择器</title>
+    <style>
+        .wrap ul > li {
+            display: block;
+            float: left;
+            list-style: none;
+            width: 100px;
+            height: 20px;
+            background-color: #00B83F;
+            margin-right: 5px;
+        }
+
+        .wrap ul > li > ul {
+            display: none;
+
+        }
+
+        .wrap ul > li > ul > li {
+            display: block;
+            margin-bottom: 5px;
+            list-style: none;
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+<!--下拉菜单案例-->
+<div class="wrap">
+    <ul>
+        <li>
+            <a href="">一级菜单1</a>
+            <ul>
+                <li>二级菜单01</li>
+                <li>二级菜单02</li>
+                <li>二级菜单03</li>
+            </ul>
+        </li>
+        <li>
+            <a href="">一级菜单2</a>
+            <ul>
+                <li>二级菜单01</li>
+                <li>二级菜单02</li>
+                <li>二级菜单03</li>
+            </ul>
+        </li>
+        <li>
+            <a href="">一级菜单3</a>
+            <ul>
+                <li>二级菜单01</li>
+                <li>二级菜单02</li>
+                <li>二级菜单03</li>
+            </ul>
+        </li>
+    </ul>
+
+
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    $('.wrap>ul>li').mouseover(function () {
+        $(this).show()
+    })
+</script>
+</body>
+</html>

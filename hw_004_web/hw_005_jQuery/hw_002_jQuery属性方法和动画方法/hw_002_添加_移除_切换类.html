@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_002_添加_移除_切换类</title>
+    <style>
+        ul li{
+            background-color: red;
+            display: block;
+            list-style: none;
+            height: 20px;
+            line-height: 24px;
+            margin-bottom: 5px;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .current{
+            color: #1a1a1a;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+<!--三个按钮,对应三种功能-->
+<input type="button" value="添加类">
+<input type="button" value="删除类">
+<input type="button" value="切换类">
+
+<ul>
+    <li>第1列</li>
+    <li>第2列</li>
+    <li>第3列</li>
+</ul>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    /**
+     * 添加类:addClass()
+     * 移除类:removeClass()
+     * 切换类:toggleClass()
+     */
+    $('input').eq(0).click(function () {
+        // 第一个按钮点击事件
+        $('ul li').eq(0).addClass('current')
+    })
+    $('input').eq(1).click(function () {
+        // 第一个按钮点击事件
+        $('ul li').eq(0).removeClass('current')
+    })
+    $('input').eq(2).click(function () {
+        // 第一个按钮点击事件
+        $('ul li').eq(0).toggleClass('current')
+    })
+
+</script>
+</body>
+</html>

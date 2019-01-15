@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_004_布尔值属性专用方法prop</title>
+</head>
+<body>
+<input type="button" value="选中">
+<input type="button" value="不选中">
+<input type="checkbox" id="ck">
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script>
+    /**
+     * prop专用于布尔值的属性
+     */
+    $('input').eq(0).click(function () {
+        $('#ck').prop('checked',true)
+    })
+    $('input').eq(1).click(function () {
+        $('#ck').prop('checked',false)
+    })
+
+</script>
+</body>
+</html>
